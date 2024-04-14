@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+.navbar {
+  overflow: hidden;
+  background-color: #white;
+}
+	
+	.navname {
+	  float: left;
+	  display: block;
+	  color: #000000;
+	  text-align: center;
+	  padding: 14px 20px;
+	  text-decoration: none;
+	  	  font-family: "Roboto Slab", serif;
+			  font-optical-sizing: auto;
+			  font-weight: 800;
+			  font-style: normal;
+			  font-size: 40px;
+	}
+
+	.navlink {
+	  float: right;
+	  display: block;
+	  color: #000000;
+	  text-align: center;
+	  padding: 14px 20px;
+	  text-decoration: none;
+	  word-spacing: 30px;
+	    font-family: "Roboto Slab", serif;
+		  font-optical-sizing: auto;
+		  font-weight: <weight>;
+		  font-style: normal;
+	}
+
+			a:link {
+			  color: #000000;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+			a:visited {
+			  color: #000000;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+			a:hover {
+			  color: #435B5B;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+			a:active {
+			  color: #599292;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+
+.mainpic {
+  
+  text-align: left;
+  background: #182525;
+  color: white;
+  
+  background-size: 100%;
+  	  font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 48px;
+      
+}
+.maintitle {
+	text-align: left;
+  background: #182525;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-top: -40px;
+  background-size: 100%;
+  	  font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 48px;
+}
+
+.maininfo {
+	  margin-top: -50px;
+  padding: 20px; 
+  text-align: center;
+  background: #606867;
+  color: white;
+    font-family: "Roboto Flex", sans-serif;
+	  font-optical-sizing: auto;
+	  font-weight: 100;
+	  font-style: normal;
+}
+
+.mainsocials {
+	  float: center;
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 20px;
+	  text-decoration: none;
+	  margin: auto;
+	  background: #606867;
+	  word-spacing: 30px;
+		  font-family: "Roboto Flex", sans-serif;
+		  font-optical-sizing: auto;
+		  font-weight: 600;
+		  font-style: normal;
+}
+
+
+
+
+
+.menutitle {
+  padding: 0px;
+  text-align: center; 
+  background: white; 
+  color: #182525;
+    font-family: "Roboto Serif", serif;
+	  font-optical-sizing: auto;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-size: 96px;
+}
+
+
+ 
+.menubox {
+       display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        width: 100vw;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+          font-family: "Roboto Mono", monospace;
+				  font-optical-sizing: auto;
+				  font-weight: <weight>;
+				  font-style: normal;
+				  font-size: 20px;
+}
+	.menurow:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.menucolumn {
+		float: left;
+		width: 33%;
+	}
+
+
+.whobox {
+       display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        width: 100vw;
+        box-sizing: border-box;
+        justify-content: center;
+        background-color: lightgrey;
+			    font-family: "Roboto Flex", sans-serif;
+				  font-optical-sizing: auto;
+				  font-weight: 100;
+				  font-style: normal;
+}
+	.whorow:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.whocolumn1 {
+		float: left;
+		width: 20%;
+	}
+	.whocolumn2 {
+		float: left;
+		width: 80%;
+	}
+
+
+.pagecontainer {
+	justify-content: space-evenly;
+	display: flex;
+	width: 100%;
+	padding-top: 10px;
+	padding bottom: 10px;
+    font-family: "Roboto Flex", sans-serif;
+	  font-optical-sizing: auto;
+	  font-weight: 100;
+	  font-style: normal;	
+}
+	.pagerow:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.pagecolumn1 {
+		float: left;
+		width: 50%;
+		height: 300px;
+		text-align: center;
+		color: white;
+		background-image: url(images/caterbanner.jpg);
+		background-size: 100%;
+		text-shadow: 1px 1px black;
+			font-family: "Roboto Flex", sans-serif;
+		  font-optical-sizing: auto;
+		  font-weight: 100;
+		  font-style: normal;
+
+	}
+	.pagecolumn2 {
+		float: left;
+		width: 50%;
+		height: 300px;
+		text-align: center;
+		color: white;
+		background-image: url(images/cakebanner.jpg);
+		background-size: 100%;
+		text-shadow: 1px 1px black;
+			font-family: "Roboto Flex", sans-serif;
+		  font-optical-sizing: auto;
+		  font-weight: 100;
+		  font-style: normal;
+	}
+
+
+
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #606867;
+  color: white;
+}
