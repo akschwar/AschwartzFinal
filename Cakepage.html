@@ -72,17 +72,92 @@ body {
 
 
 
-<div class="formbox">
-	 <form action="/action_page.php">
-	  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-	  <label for="vehicle1">Addition 1</label><br>
-	  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-	  <label for="vehicle2"> Addition 2</label><br>
-	  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-	  <label for="vehicle3"> Addition 3</label><br><br>
-	  <input type="submit" value="Submit">
-	</form> 
+<div class="menutitle"><h2>Cake Form and Additional Items</h2>
+	<p>Pick your cake package and choose any additional items to your order. All orders must be made a week prior to the event.</p>
 </div>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="fname">First and Last Name</label></div>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="lname">Company (if applicable)</label></div>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Company Name if Applicable">
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="fname">Email Address</label></div>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="@email.com">
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="fname">Phone Number</label></div>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="(000)-000-0000">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="fname">Address for Delivery</label></div>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="1000 East Example Street, City, State">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="package">Package</label></div>
+    </div>
+    <div class="col-75">
+      <select id="package" name="package">
+        <option value="Simple Double Layer">Simple Double Layer</option>
+        <option value="Split Flavor Cake">Split Flavor Cake</option>
+        <option value="Birthday Special">Birthday Special</option>
+        <option value="Wedding Special">Wedding Special</option>
+      </select>
+    </div>
+  </div>
+ <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="additions">Additions</label></div>
+    </div>
+    <div class="col-75">
+      <select id="additions" name="additions">
+        <option value="Cupckaes">Dozen Cupcakes</option>
+        <option value="Pastries">Extra Box of Pastries</option>
+        <option value="Coffee">Gallon Container of Coffee</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25"><div class="centertext">
+      <label for="subject">Extra Notes</label></div>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Any addtional requests or notes?" style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
 
 <br>
 
